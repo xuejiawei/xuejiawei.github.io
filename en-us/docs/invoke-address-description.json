@@ -1,0 +1,6 @@
+{
+  "filename": "invoke-address-description.md",
+  "__html": "<h1>调用地址说明</h1>\n<p>测试环境https://open-platform-test.dushu.io</p>\n<p>正式环境https://open-platform.dushu.io（仅在申请上线成功后，才能被调用成功。）</p>\n",
+  "link": "\\en-us\\docs\\invoke-address-description.html",
+  "meta": {}
+}

@@ -1,0 +1,156 @@
+{
+  "en-us": [
+    {
+      "filename": "acquire-accesstoken.md",
+      "link": "\\en-us\\docs\\acquire-accesstoken.html",
+      "meta": {}
+    },
+    {
+      "filename": "apply-test-account.md",
+      "link": "\\en-us\\docs\\apply-test-account.html",
+      "meta": {}
+    },
+    {
+      "filename": "basic-agreement.md",
+      "link": "\\en-us\\docs\\basic-agreement.html",
+      "meta": {}
+    },
+    {
+      "filename": "business-parameter-sign.md",
+      "link": "\\en-us\\docs\\business-parameter-sign.html",
+      "meta": {}
+    },
+    {
+      "filename": "demo1.md",
+      "link": "\\en-us\\docs\\demo1.html",
+      "meta": {}
+    },
+    {
+      "filename": "demo2.md",
+      "link": "\\en-us\\docs\\demo2.html",
+      "meta": {}
+    },
+    {
+      "filename": "developer-specification.md",
+      "link": "\\en-us\\docs\\developer-specification.html",
+      "meta": {}
+    },
+    {
+      "filename": "faq.md",
+      "link": "\\en-us\\docs\\faq.html",
+      "meta": {}
+    },
+    {
+      "filename": "global-request-parameter.md",
+      "link": "\\en-us\\docs\\global-request-parameter.html",
+      "meta": {}
+    },
+    {
+      "filename": "globalcode-description.md",
+      "link": "\\en-us\\docs\\globalcode-description.html",
+      "meta": {}
+    },
+    {
+      "filename": "interface-specification.md",
+      "link": "\\en-us\\docs\\interface-specification.html",
+      "meta": {}
+    },
+    {
+      "filename": "invoke-address-description.md",
+      "link": "\\en-us\\docs\\invoke-address-description.html",
+      "meta": {}
+    },
+    {
+      "filename": "main-process.md",
+      "link": "\\en-us\\docs\\main-process.html",
+      "meta": {}
+    },
+    {
+      "filename": "order-details.md",
+      "link": "\\en-us\\docs\\order\\order-details.html",
+      "meta": {}
+    },
+    {
+      "filename": "vip-add-direct.md",
+      "link": "\\en-us\\docs\\vip\\vip-add-direct.html",
+      "meta": {}
+    },
+    {
+      "filename": "vip-product-list.md",
+      "link": "\\en-us\\docs\\vip\\vip-product-list.html",
+      "meta": {}
+    }
+  ],
+  "zh-cn": [
+    {
+      "filename": "acquire-accesstoken.md",
+      "link": "\\zh-cn\\docs\\acquire-accesstoken.html",
+      "meta": {}
+    },
+    {
+      "filename": "apply-test-account.md",
+      "link": "\\zh-cn\\docs\\apply-test-account.html",
+      "meta": {}
+    },
+    {
+      "filename": "basic-agreement.md",
+      "link": "\\zh-cn\\docs\\basic-agreement.html",
+      "meta": {}
+    },
+    {
+      "filename": "business-parameter-sign.md",
+      "link": "\\zh-cn\\docs\\business-parameter-sign.html",
+      "meta": {}
+    },
+    {
+      "filename": "developer-specification.md",
+      "link": "\\zh-cn\\docs\\developer-specification.html",
+      "meta": {}
+    },
+    {
+      "filename": "faq.md",
+      "link": "\\zh-cn\\docs\\faq.html",
+      "meta": {}
+    },
+    {
+      "filename": "global-request-parameter.md",
+      "link": "\\zh-cn\\docs\\global-request-parameter.html",
+      "meta": {}
+    },
+    {
+      "filename": "globalcode-description.md",
+      "link": "\\zh-cn\\docs\\globalcode-description.html",
+      "meta": {}
+    },
+    {
+      "filename": "interface-specification.md",
+      "link": "\\zh-cn\\docs\\interface-specification.html",
+      "meta": {}
+    },
+    {
+      "filename": "invoke-address-description.md",
+      "link": "\\zh-cn\\docs\\invoke-address-description.html",
+      "meta": {}
+    },
+    {
+      "filename": "main-process.md",
+      "link": "\\zh-cn\\docs\\main-process.html",
+      "meta": {}
+    },
+    {
+      "filename": "order-details.md",
+      "link": "\\zh-cn\\docs\\order\\order-details.html",
+      "meta": {}
+    },
+    {
+      "filename": "vip-add-direct.md",
+      "link": "\\zh-cn\\docs\\vip\\vip-add-direct.html",
+      "meta": {}
+    },
+    {
+      "filename": "vip-product-list.md",
+      "link": "\\zh-cn\\docs\\vip\\vip-product-list.html",
+      "meta": {}
+    }
+  ]
+}

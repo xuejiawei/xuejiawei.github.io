@@ -1,0 +1,6 @@
+{
+  "filename": "main-process.md",
+  "__html": "<h1>主流程</h1>\n<ul>\n<li>用户在合作方平台购买会期商品</li>\n<li>合作方确认，组合参数</li>\n<li>调用樊登读书会期直充接口</li>\n<li>樊登读书返回直充结果</li>\n<li>合作方根据返回结果自行处理展示给用户</li>\n</ul>\n",
+  "link": "\\zh-cn\\docs\\main-process.html",
+  "meta": {}
+}

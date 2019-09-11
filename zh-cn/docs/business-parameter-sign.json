@@ -1,0 +1,6 @@
+{
+  "filename": "business-parameter-sign.md",
+  "__html": "<h1>业务接口调用签名</h1>\n<p>请求body需要进行签名才能通过接口检验，appid，access_token，sign字段不进行签名。</p>\n<p>将请求body拼接appid，appsecret作为盐值进行SHA1加密，得到相应的sign值，放在请求URL中作为参数传递。</p>\n<h2>加密示例</h2>\n<p>请求内容</p>\n<pre><code>{\n    &quot;mobile&quot;: &quot;15888888888&quot;,\n    &quot;areaCode&quot;:&quot;+86&quot;,\n    &quot;productNo&quot;: 200000403,\n    &quot;fee&quot;:188.00,\n    &quot;tradeNo&quot;: 123446789,\n    &quot;payType&quot;: &quot;test&quot;\n}\n</code></pre>\n<p>开发者账号</p>\n<pre><code>appid:fd0cac7cd6726d211f\nappsecret:ca70d1f641c7fc2b3b9fd1fbaa87e646b83014a0\n</code></pre>\n<p>得到的加密字符串sign</p>\n<pre><code>0d18f45ae06ca4185ea4320a22bfa5353b4c8c91\n</code></pre>\n",
+  "link": "\\zh-cn\\docs\\business-parameter-sign.html",
+  "meta": {}
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="vip-add-direct" />
+	<meta name="description" content="vip-add-direct" />
+	<!-- 网页标签标题 -->
+	<title>vip-add-direct</title>
+	<link rel="shortcut icon" href="/img/fav.ico"/>
+	<link rel="stylesheet" href="/build/documentation.css" />
+</head>
+<body>
+	<div id="root"><div class="documentation-page" data-reactroot=""><header class="header-container header-container-normal"><div class="header-body"><a href="/en-us/index.html"><img class="logo" src="/img/logo_colorful.png"/></a><div class="search search-normal"><span class="icon-search"></span></div><span class="language-switch language-switch-normal">中</span><div class="header-menu"><img class="header-menu-toggle" src="/img/system/menu_gray.png"/><ul><li class="menu-item menu-item-normal"><a href="/en-us/index.html" target="_self">HOME</a></li><li class="menu-item menu-item-normal menu-item-normal-active"><a href="/en-us/docs/developer-specification.html" target="_self">DOCS</a></li><li class="menu-item menu-item-normal"><a href="/en-us/blog/index.html" target="_self">BLOG</a></li><li class="menu-item menu-item-normal"><a href="/en-us/community/index.html" target="_self">COMMUNITY</a></li></ul></div></div></header><div class="bar"><div class="bar-body"><img src="/img/system/docs.png" class="front-img"/><span>文档</span><img src="/img/system/docs.png" class="back-img"/></div></div><section class="content-section"><div class="sidemenu"><div class="sidemenu-toggle"><img src="https://img.alicdn.com/tfs/TB1E6apXHGYBuNjy0FoXXciBFXa-200-200.png"/></div><ul><li class="menu-item menu-item-level-1"><span>Preface</span><ul><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/developer-specification.html" target="_self">Developer specification</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/interface-specification.html" target="_self">Interface authority</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/globalcode-description.html" target="_self">Global code</a></li></ul></li><li class="menu-item menu-item-level-1"><span>Quick Start</span><ul><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/invoke-address-description.html" target="_self">Invoke address description</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/acquire-accesstoken.html" target="_self">Acquire access token</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/apply-test-account.html" target="_self">Apply test account</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/business-parameter-sign.html" target="_self">How to sign business parameters</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/global-request-parameter.html" target="_self">Global request parameters</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/faq.html" target="_self">FAQ</a></li></ul></li><li class="menu-item menu-item-level-1"><span>Open API</span><ul><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/main-process.html" target="_self">Main Process</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/en-us/docs/basic-agreement.html" target="_self">Basic agreement</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><span>VIP Management<img style="transform:rotate(-90deg)" class="menu-toggle" src="/img/system/arrow_down.png"/></span><ul><li class="menu-item menu-item-level-3"><a href="/en-us/docs/vip/vip-product-list.html" target="_self">Acquire VIP product</a></li><li class="menu-item menu-item-level-3"><a href="/en-us/docs/vip/vip-add-direct.html" target="_self">VIP recharge</a></li></ul></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><span>Order Management<img style="transform:rotate(-90deg)" class="menu-toggle" src="/img/system/arrow_down.png"/></span><ul><li class="menu-item menu-item-level-3"><a href="/en-us/docs/order/order-details.html" target="_self">Acquire order detail</a></li></ul></li></ul></li></ul></div><div class="doc-content markdown-body"><h1>会期直充</h1>
+<h2>功能</h2>
+<p>会期直充</p>
+<h2>限制</h2>
+<p>需要保证购买人手机号的有效性，避免出现空号等情况。</p>
+<h2>接口请求调用</h2>
+<pre><code>HTTP请求方式：POST
+https://open-platform-test.dushu.io/vip/order/create?appid=fd0cac7cd6726d1111&amp;sign=82536892cee554f566a4c45e61b521bdb43fc996&amp;access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6WyJBTEwiXSwiZXhwIjoxNTSFWDc2OTQ0LCJqdGkiOiI4NzYxNmMwNC1mMWI3LTRhNWEtYjY1OS05NGIwNWUyZTMwNzQiLCJjbGllbnRfaWQiOiJmZDBjYWM3Y2Q2NzI2ZDIxMWYifQ.K3zwm1NLbYe8KK4JyvueFrCcPnGTrXX1S9PelnOWLCk
+</code></pre>
+<h2>参数说明</h2>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>是否必须</th>
+<th>说明</th>
+<th>值示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mobile</td>
+<td>String</td>
+<td>是</td>
+<td>购买人手机号，注意：1.如果该手机号已经注册樊登读书账号，则会直充到该账户上；2.如果该手机号未注册樊登读书账号，则我方系统后台会默认给该手机号注册一个新的樊登读书账号，并发送注册成功短信通知；</td>
+<td></td>
+</tr>
+<tr>
+<td>areaCode</td>
+<td>String</td>
+<td>否</td>
+<td>手机区号</td>
+<td>默认+86</td>
+</tr>
+<tr>
+<td>productNo</td>
+<td>Integer</td>
+<td>是</td>
+<td>商品编号，通过调用获取会期商品列表获取</td>
+<td></td>
+</tr>
+<tr>
+<td>buyCount</td>
+<td>Integer</td>
+<td>否</td>
+<td>购买数量，默认为1</td>
+<td></td>
+</tr>
+<tr>
+<td>payType</td>
+<td>String</td>
+<td>是</td>
+<td>合作方支付方式</td>
+<td>1-IAP、2-支付宝、3-微信、其他需要单独开通</td>
+</tr>
+<tr>
+<td>fee</td>
+<td>decimal</td>
+<td>是</td>
+<td>协议价格（需与协议结算价格保持一致，否则下单会失败）</td>
+<td>单位:元</td>
+</tr>
+<tr>
+<td>tradeNo</td>
+<td>String</td>
+<td>是</td>
+<td>合作方订单号</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>调用示例</h2>
+<pre><code>{
+    &quot;mobile&quot;: &quot;15888888888&quot;,
+    &quot;areaCode&quot;:&quot;+86&quot;,
+    &quot;productNo&quot;: 200000403,
+    &quot;fee&quot;:188.00,
+    &quot;tradeNo&quot;: 1234522289,
+    &quot;payType&quot;: &quot;test&quot;
+}
+</code></pre>
+<h2>示例成功返回</h2>
+<pre><code>{
+    &quot;data&quot;: {
+        &quot;orderNumber&quot;: 17172796992589230,
+        &quot;tradeNo&quot;: &quot;1234522289&quot;
+    },
+    &quot;msg&quot;: &quot;操作成功！&quot;,
+    &quot;status&quot;: &quot;0000&quot;,
+    &quot;systemMsg&quot;: &quot;服务调用成功！&quot;,
+    &quot;systemTime&quot;: 1566386498626
+}
+</code></pre>
+<h2>返回成功参数说明</h2>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>orderNumber</td>
+<td>Long</td>
+<td>订单编号</td>
+</tr>
+<tr>
+<td>tradeNo</td>
+<td>String</td>
+<td>合作方交易单号</td>
+</tr>
+</tbody>
+</table>
+<h2>状态码</h2>
+<table>
+<thead>
+<tr>
+<th>状态码</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0000</td>
+<td>操作成功</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>会期商品不存在</td>
+</tr>
+<tr>
+<td>2002</td>
+<td>价格校验失败</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>该手机号已锁定</td>
+</tr>
+<tr>
+<td>2004</td>
+<td>订单号重复</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>直充失败</td>
+</tr>
+</tbody>
+</table>
+<h2>示例失败返回</h2>
+<pre><code>{
+    &quot;msg&quot;: &quot;重复提交&quot;,
+    &quot;status&quot;: &quot;9999&quot;,
+    &quot;suceess&quot;: false,
+    &quot;systemMsg&quot;: &quot;服务调用失败！&quot;,
+    &quot;systemTime&quot;: 1566386776919
+}
+</code></pre>
+<h2>返回失败参数说明</h2>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>msg</td>
+<td>String</td>
+<td>失败原因</td>
+</tr>
+<tr>
+<td>status</td>
+<td>String</td>
+<td>9999</td>
+</tr>
+</tbody>
+</table>
+</div></section><footer class="footer-container"><div class="footer-body"><img src="/img/logo_gray.png"/><div class="cols-container"><div class="col col-12"><h3>Disclaimer</h3><p>the disclaimer content</p></div><div class="col col-6"><dl><dt>Documentation</dt><dd><a href="/en-us/docs/developer-specification.html" target="_self">Overview</a></dd><dd><a href="/en-us/docs/developer-specification.html" target="_self">Quick start</a></dd><dd><a href="/en-us/docs/developer-specification.html" target="_self">Developer guide</a></dd><dd><a href="https://github.com/txd-team/docsite" target="_self">Docsite</a></dd></dl></div><div class="col col-6"><dl><dt>Resources</dt><dd><a href="/en-us/blog/index.html" target="_self">Blog</a></dd><dd><a href="/en-us/community/index.html" target="_self">Community</a></dd></dl></div></div><div class="copyright"><span>@2018-2019 樊登读书 | 上海黄豆网络科技有限公司 | 沪ICP备15021838</span></div></div></footer></div></div>
+	<script src="https://f.alicdn.com/react/15.4.1/react-with-addons.min.js"></script>
+	<script src="https://f.alicdn.com/react/15.4.1/react-dom.min.js"></script>
+	<script>
+		window.rootPath = '';
+  </script>
+	<script src="/build/documentation.js"></script>
+</body>
+</html>

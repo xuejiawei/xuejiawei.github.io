@@ -1,0 +1,6 @@
+{
+  "filename": "global-request-parameter.md",
+  "__html": "<h1>接口请求统一参数</h1>\n<table>\n<thead>\n<tr>\n<th>参数</th>\n<th>是否必须</th>\n<th>说明</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>appid</td>\n<td>是</td>\n<td>开发者账号APPID</td>\n</tr>\n<tr>\n<td>sign</td>\n<td>是</td>\n<td>请求内容体签名</td>\n</tr>\n<tr>\n<td>access_token</td>\n<td>是</td>\n<td>接口调用凭证</td>\n</tr>\n</tbody>\n</table>\n",
+  "link": "\\zh-cn\\docs\\global-request-parameter.html",
+  "meta": {}
+}

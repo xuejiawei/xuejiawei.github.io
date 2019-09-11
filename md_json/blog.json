@@ -1,0 +1,29 @@
+{
+  "en-us": [
+    {
+      "filename": "china-unicom-wo-music-and-fandeng.md",
+      "link": "\\en-us\\blog\\china-unicom-wo-music-and-fandeng.html",
+      "meta": {
+        "key1": "SPIRITUAL WEALTH CLUB",
+        "key2": "CHINA UNICOM WO MUSIC"
+      }
+    }
+  ],
+  "zh-cn": [
+    {
+      "filename": "china-unicom-wo-music-and-fandeng.md",
+      "link": "\\zh-cn\\blog\\china-unicom-wo-music-and-fandeng.html",
+      "meta": {
+        "key1": "樊登读书",
+        "key2": "中国联通沃音乐"
+      }
+    },
+    {
+      "filename": "release-openplatform.md",
+      "link": "\\zh-cn\\blog\\release-openplatform.html",
+      "meta": {
+        "key1": "开放平台"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "filename": "globalcode-description.md",
+  "__html": "<h1>全局返回码说明</h1>\n<p>开发者每次调用接口时，可能会获得正确或错误的返回码，开发者可以通过错误返回来调试排查错误。</p>\n<table>\n<thead>\n<tr>\n<th>返回码</th>\n<th>说明</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>100001</td>\n<td>不合法的签名</td>\n</tr>\n<tr>\n<td>100002</td>\n<td>非法的access_token</td>\n</tr>\n<tr>\n<td>100003</td>\n<td>access_token失效或过期</td>\n</tr>\n<tr>\n<td>100004</td>\n<td>缺少access_token参数</td>\n</tr>\n<tr>\n<td>100005</td>\n<td>缺少appid参数</td>\n</tr>\n<tr>\n<td>100006</td>\n<td>缺少sign参数</td>\n</tr>\n<tr>\n<td>100007</td>\n<td>缺少必要授权参数</td>\n</tr>\n<tr>\n<td>100008</td>\n<td>无访问此API的权限</td>\n</tr>\n<tr>\n<td>100009</td>\n<td>无授权的API</td>\n</tr>\n<tr>\n<td>100010</td>\n<td>API配置信息错误</td>\n</tr>\n<tr>\n<td>100011</td>\n<td>无此应用信息</td>\n</tr>\n<tr>\n<td>100012</td>\n<td>该IP不在白名单内</td>\n</tr>\n<tr>\n<td>100013</td>\n<td>IP白名单未设置</td>\n</tr>\n<tr>\n<td>200001</td>\n<td>资源服务异常</td>\n</tr>\n<tr>\n<td>200002</td>\n<td>资源服务异常</td>\n</tr>\n<tr>\n<td>200003</td>\n<td>资源服务异常</td>\n</tr>\n<tr>\n<td>200004</td>\n<td>资源服务异常</td>\n</tr>\n</tbody>\n</table>\n",
+  "link": "\\en-us\\docs\\globalcode-description.html",
+  "meta": {}
+}

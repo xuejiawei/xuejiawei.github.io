@@ -1,0 +1,35 @@
+pages:
+ # key is the dirname of pages in src/pages
+ home:
+  # 首页配置
+  zh-cn:
+   title: '樊登读书开放平台'
+   keywords: '樊登读书，开放平台'
+   description: '樊登读书开放平台'
+  # home config
+  en-us:
+   title: 'SPIRITUAL WEALTH CLUB OPEN PLATFORM'
+   keywords: 'SPIRITUAL WEALTH CLUB,OPEN PLATFORM'
+   description: 'SPIRITUAL WEALTH CLUB OPEN PLATFORM'
+ community:
+  # 社区页配置
+  zh-cn:
+   title: '樊登读书开放平台'
+   keywords: '樊登读书，开放平台'
+   description: '樊登读书开放平台'
+  # community page config
+  en-us:
+   title: 'SPIRITUAL WEALTH CLUB OPEN PLATFORM'
+   keywords: 'SPIRITUAL WEALTH CLUB,OPEN PLATFORM'
+   description: 'SPIRITUAL WEALTH CLUB OPEN PLATFORM'
+ blog:
+  # 博客列表页配置
+  zh-cn:
+   title: '樊登读书开放平台'
+   keywords: '樊登读书，开放平台'
+   description: '樊登读书开放平台'
+  en-us:
+   # blog list page config
+   title: 'SPIRITUAL WEALTH CLUB OPEN PLATFORM'
+   keywords: 'SPIRITUAL WEALTH CLUB,OPEN PLATFORM'
+   description: 'SPIRITUAL WEALTH CLUB OPEN PLATFORM'
