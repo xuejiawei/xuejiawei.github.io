@@ -96,7 +96,7 @@ export default {
           },
           {
             title: '接口权限说明',
-            link: '/zh-cn/docs/interface-specification.html',
+            link: '/zh-cn/docs/inter-specification.html',
           },
           {
             title: '全局返回码说明',

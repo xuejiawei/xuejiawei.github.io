@@ -1,0 +1,6 @@
+{
+  "filename": "inter-specification.md",
+  "__html": "<h1>接口权限说明</h1>\n<p>樊登读书开放平台开发者分为两种类型，企业开发者与个人开发者，每种类型的开发者对应不同的权限。</p>\n<table>\n<thead>\n<tr>\n<th>接口名称</th>\n<th>未认证个人开发者</th>\n<th>个人开发者</th>\n<th>未认证企业开发者</th>\n<th>企业开发者</th>\n<th>接口调用频次</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>会期直充</td>\n<td>无</td>\n<td>无</td>\n<td>无</td>\n<td>有</td>\n<td>暂无限制</td>\n</tr>\n<tr>\n<td>会期产品列表</td>\n<td>无</td>\n<td>无</td>\n<td>无</td>\n<td>有</td>\n<td>暂无限制</td>\n</tr>\n<tr>\n<td>订单详情</td>\n<td>无</td>\n<td>无</td>\n<td>无</td>\n<td>有</td>\n<td>暂无限制</td>\n</tr>\n</tbody>\n</table>\n",
+  "link": "\\zh-cn\\docs\\inter-specification.html",
+  "meta": {}
+}
